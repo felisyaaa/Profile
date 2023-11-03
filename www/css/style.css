@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Styling header dengan foto profil */
+header {
+    text-align: center;
+    background-color: #333 ;
+    color: #fff;
+    padding: 100px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+/* Styling main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f5f5f5; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-story {
+    flex: 1;
+    padding: 20px;
+}
+
+.my-story h2 {
+    font-size: 28px;
+}
+
+.my-story p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.personal-info {
+    flex: 1;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.personal-info h2 {
+    font-size: 28px;
+}
+
+.personal-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.personal-info li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.personal-info li strong {
+    margin-right: 10px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.find-me h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.find-me a {
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* Style ikon tautan sosial */
+.find-me img {
+    width: 35px;
+    height: 35px;
+}
